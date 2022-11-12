@@ -29,6 +29,8 @@ public class ServerPlayerAgent : NetworkBehaviour {
         {
             greet = false;
             Logger.Singleton.LogInfo("Hello from ServerPlayerAgent!");
+            Logger.Singleton.LogInfo("The fact that you see this means that this class is used as player prefab.");
+            Logger.Singleton.LogInfo("It's half the job done.");
         }
     }
 

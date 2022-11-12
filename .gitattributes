@@ -1,0 +1,3 @@
+*.cs eol=lf
+
+.gitattributes eol=lf

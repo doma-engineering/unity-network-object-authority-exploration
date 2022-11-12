@@ -31,9 +31,11 @@ public class Run : MonoBehaviour
                     Logger.Singleton.LogInfo("Launching host (an honest client?)...");
                     m_nm.StartHost();
                     break;
+                default:
+                    Logger.Singleton.LogInfo("Launching client...");
+                    m_nm.StartClient();
+                    break;
             }
-            Logger.Singleton.LogInfo("Launching client...");
-            m_nm.StartClient();
         }
     }
 
